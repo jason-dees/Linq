@@ -28,7 +28,7 @@ Takes an array and concatenates it to the end of the Linq object's array and ret
 <h4>First([fn]) - Object</h4>
 <h4>FirstOrDefault([fn]) - Object</h4>
 <h4>Intersect([fn]) - Linq</h4>
-<h4>Join(array,outerSelectorFn,innerSelectorFn,resultFn(innerElement,outerElement){return [some combination of data];}[,compareFn]) - Linq</h4>
+<h4>Join(array,outerSelectorFn,innerSelectorFn,resultFn<innerElement,outerElement>[,compareFn]) - Linq</h4>
 <h4>Last([fn]) - Object</h4>
 <h4>LastOrDefault([fn]) - Object</h4>
 <h4>Max([fn]) - Number</h4>
