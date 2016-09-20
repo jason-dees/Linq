@@ -29,10 +29,10 @@ var Linq = function(arr){
             var element = arr[i];
             if(compareFn(element,obj)){return true; }
         }
-        return false;
+		return false;
 	}
 	arr.Count = function(fn){//Count of elements that match function
-        if(fn == null){return arr.length;}
+		if(fn == null){return arr.length;}
         var result = generic_fn(function(array, element){
             if(fn(element)){
                 array.push(element);
